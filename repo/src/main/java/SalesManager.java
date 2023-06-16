@@ -15,11 +15,11 @@ public class SalesManager {
         return max;
     }
 
-    public int average() {
-        int max = max();
-        int min = max;
-        int sum = 0;
-        for (int x : sales) {
+    public long average() {
+        long max = max();
+        long min = max;
+        long sum = 0;
+        for (long x : sales) {
             min = Math.min(min, x);
             sum += x;
         }
